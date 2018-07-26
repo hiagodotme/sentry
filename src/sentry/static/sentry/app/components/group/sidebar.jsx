@@ -226,7 +226,7 @@ const GroupSidebar = createReactClass({
     return (
       <div className="group-stats">
         <SuggestedOwners event={this.props.event} />
-        <Feature feature={['internal-catchall']}>
+        <Feature feature={['new-issue-ui']}>
           <ExternalIssueList group={this.props.group} />
         </Feature>
         <GroupReleaseStats
